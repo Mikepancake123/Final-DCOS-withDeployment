@@ -1,0 +1,34 @@
+{
+  "name": "laravel-electron",
+  "version": "1.0.0",
+  "description": "This is laravel setup with electron that can use offline using sqlite",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . laravel-electron --out=dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hareom284/laravel-electron.git"
+  },
+  "keywords": [
+    "laravel",
+    "electron",
+    "sqlite",
+    "offline"
+  ],
+  "author": "Host Myanmar Organization",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hareom284/laravel-electron/issues"
+  },
+  "homepage": "https://github.com/hareom284/laravel-electron#readme",
+  "dependencies": {
+    "node-php-server": "^0.1.2"
+  },
+  "devDependencies": {
+    "electron": "^22.1.0",
+    "electron-packager": "^17.1.1"
+  }
+}

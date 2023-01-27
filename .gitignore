@@ -1,0 +1,7 @@
+node*
+/node_modules
+/php
+/dist
+package-lock.json
+/www/node_modules
+/www/vendor
